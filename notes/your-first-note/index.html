@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="zh-CN" class="dark"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Your first seed"><title>Your first seed — JXCPC Tech Group</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><script>
+      const t = localStorage.getItem('theme');
+      if (t === 'light') document.documentElement.classList.remove('dark');
+    </script><link rel="stylesheet" href="/_astro/about.Cbs96BTt.css"></head> <body class="min-h-screen bg-background text-foreground antialiased">  <header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"> <div class="container mx-auto flex h-16 items-center justify-between px-4"> <a href="/" class="flex items-center gap-2 font-bold text-lg"> <span>JXCPC Tech Group</span> </a> <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground"> <a href="/#about" class="hover:text-foreground transition-colors">About</a> <a href="/#contests" class="hover:text-foreground transition-colors">Contests</a> <a href="/#join" class="hover:text-foreground transition-colors">Join</a> <a href="/about" class="hover:text-foreground transition-colors">About</a> </nav> <div class="flex items-center gap-2"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();;(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="Z1FHAQc" prefix="r1" component-url="/_astro/ThemeToggle.dCSiNV5o.js" component-export="default" renderer-url="/_astro/client.SWu0E-Mb.js" props="{}" ssr="" client="load" opts="{&quot;name&quot;:&quot;ThemeToggle&quot;,&quot;value&quot;:true}" await-children=""><button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-10 w-10" aria-label="Toggle theme"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun h-5 w-5"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg></button><!--astro:end--></astro-island> </div> </div> </header> <main class="min-h-screen"> <article class="container mx-auto px-4 py-32"> <div class="max-w-3xl mx-auto"> <a href="/notes" class="text-sm text-muted-foreground hover:text-foreground transition-colors mb-8 inline-block">
+&larr; All notes
+</a> <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">Note</div> <h1 class="text-4xl font-bold tracking-tight mb-12">Your first seed</h1> <div class="prose prose-invert max-w-none text-muted-foreground leading-relaxed
+          prose-headings:text-foreground prose-a:text-primary prose-strong:text-foreground
+          prose-code:text-foreground prose-pre:bg-zinc-900 prose-pre:border prose-pre:border-zinc-800
+          prose-li:text-muted-foreground"> <h3 id="welcome">Welcome!</h3>
+<p>This is your first note. You’ll find it in the <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes"><code>notes/</code></a> directory.</p>
+<h3 id="link-syntax">Link syntax</h3>
+<p>To link to another note, you can use multiple syntaxes. The following four use the “double-bracket” notation (<a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax">view the Markdown source file</a> to see the underlying syntax).</p>
+<ul>
+<li>Using the note title: [[a note about cats]]</li>
+<li>Using the note’s filename: [[cats]]</li>
+<li>Using the note’s title, with a label: [[A note about cats|link to the note about cats using the note title]]</li>
+<li>Using the note’s filename, with a label: [[cats|link to the note about cats using the note’s filename]]</li>
+</ul>
+<p>You can organize notes in subdirectories and link them normally. For example, the links above all point to the <code>_notes/animals/cats.md</code> file. Here’s another example: [[tigers]].</p>
+<p>Non-latin languages are supported: [[안녕하세요]]; so are accents/diacritics: [[bon appétit!]]</p>
+<p>Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the <code>your-first-note.md</code> file can be linked to with [[your first note]] or [[your-first-note]], or even [[yOuR-FiRsT Note]].</p>
+<p>In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: [[there is no note that matches this link]].</p>
+<p>Alternatively, you can use regular <a href="https://www.markdownguide.org/getting-started/">Markdown syntax</a> for links, with a relative link to the other note, like this: <a href="/cats">this is a Markdown link to the note about cats</a>{: .internal-link}. Don’t forget to use the <code>.internal-link</code> class to make sure the link is styled as an internal link (without the little arrow).</p>
+<p>Since the Web is all about HTML, you can always use plain HTML if you want, like this: <a class="internal-link" href="/cats">This is a link to the note about cats with HTML</a>.</p>
+<p>Of course, you can also link to external websites, like this: <a href="https://wikipedia.org/">this is a link to Wikipedia</a>. Again, you can use plain HTML if you prefer. Footnotes are also supported and will be treated like internal links.<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup> You can point to other notes in your footnotes.<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref="" aria-describedby="footnote-label">2</a></sup></p>
+<h3 id="tweet-embedding">Tweet embedding</h3>
+<p>Note: This behavior is disabled by default for privacy reasons. See “Site configuration” section below to enable it.</p>
+<p>You may include a tweet URL on its own line (like below), and it would be replaced with an official Twitter embed if the site configuration demands it.</p>
+<p><a href="https://twitter.com/jack/status/20">https://twitter.com/jack/status/20</a></p>
+<h3 id="media-embedding">Media embedding</h3>
+<p>You may embed media files within a note using HTML5 media tags. Here’s an example for an audio file:</p>
+<p>“Jazzy Frenchy” by Benjamin Tissot from bensound.com
+<audio controls>
+<source src="{{ site.baseurl }}/assets/jazzyfrenchy.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio></p>
+<h3 id="site-configuration">Site configuration</h3>
+<p>Some behavior is configurable by tweaking the <code>_config.yml</code> file.</p>
+<p><strong><code>use_html_extension</code></strong>: if you use a static host that doesn’t support URLs that don’t end with <code>.html</code> (such as Neocities), try changing the <code>use_html_extension</code> value to <code>true</code> in the <code>_config.yml</code> file and restart the Jekyll server (or re-build the site). This adds a <code>.html</code> extension to note URLs and may resolve issues with links. If you’re still having trouble, I recommend using Netlify to host your digital garden: it’s free, easy to use, and fully supports this template’s features out of the box.</p>
+<p><strong><code>open_external_links_in_new_tab</code></strong>: when set to <code>true</code>, this makes external links open in new tabs. Set to <code>false</code> to open all links in the current tab.</p>
+<p><strong><code>embed_tweets</code></strong>: when set to <code>true</code>, tweet URLs on their own lines will be replaced with a Twitter embed. Default value is <code>false</code>.</p>
+<h3 id="automatic-bi-directional-links">Automatic bi-directional links</h3>
+<p>Notice in the “Notes mentioning this note” section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.</p>
+<h3 id="link-previews">Link previews</h3>
+<p>If you’re on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[a note about cats]].</p>
+<p>Links that have been previewed will be cached to avoid redundant requests.</p>
+<h3 id="images-and-other-markdown-goodies">Images and other Markdown goodies</h3>
+<p>Finally, because you have the full power of Markdown in this template, you can use regular Markdown syntax for various formatting options.</p>
+<p>Lists work as expected:</p>
+<ul>
+<li>List element A</li>
+<li>List element B</li>
+<li>List element C</li>
+</ul>
+<ol>
+<li>List element</li>
+<li>List element</li>
+<li>List element</li>
+</ol>
+<p>If you’d like to quote other people, consider using quote blocks:</p>
+<blockquote>
+<p>Lorem ipsum dolor sit amet</p>
+</blockquote>
+<p>And of course, images look great:</p>
+<img src="{{ site.baseurl }}/assets/image.jpg">
+<p>You can also ==highlight some content== by wrapping it with <code>==</code>.</p>
+<p>Non-latin languages are supported too: ==你好==, ==안녕하세요==, ==こんにちは==.</p>
+<h3 id="code-syntax-highlighting">Code syntax highlighting</h3>
+<p>You can add code blocks with full syntax color highlighting by wrapping code snippet in triple backticks and specifying the type of the code (<code>js</code>, <code>rb</code>, <code>sh</code>, etc.):</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#6A737D">// Here's a bit of JavaScript:</span></span>
+<span class="line"><span style="color:#F97583">if</span><span style="color:#E1E4E8"> (a </span><span style="color:#F97583">===</span><span style="color:#E1E4E8"> b </span><span style="color:#F97583">||</span><span style="color:#E1E4E8"> c </span><span style="color:#F97583">==</span><span style="color:#E1E4E8"> d)</span></span>
+<span class="line"><span style="color:#E1E4E8">  console.</span><span style="color:#B392F0">log</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">'hello!'</span><span style="color:#E1E4E8">)</span></span>
+<span class="line"></span></code></pre>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="rb"><code><span class="line"><span style="color:#6A737D"># And now some Ruby</span></span>
+<span class="line"><span style="color:#F97583">def</span><span style="color:#B392F0"> foo</span><span style="color:#E1E4E8">(bar)</span></span>
+<span class="line"><span style="color:#9ECBFF">  "baz"</span></span>
+<span class="line"><span style="color:#F97583">end</span></span>
+<span class="line"></span></code></pre>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="sh"><code><span class="line"><span style="color:#B392F0">$</span><span style="color:#9ECBFF"> cat</span><span style="color:#9ECBFF"> /dev/urandom</span><span style="color:#F97583"> |</span><span style="color:#B392F0"> grep</span><span style="color:#9ECBFF"> "the answer to life"</span><span style="color:#6A737D"> # shell scripts look nice too</span></span>
+<span class="line"></span></code></pre>
+<h3 id="next-steps">Next steps</h3>
+<p>This digital garden template is free, open-source, and <a href="https://github.com/maximevaillancourt/digital-garden-jekyll-template">available on GitHub here</a>.</p>
+<p>The easiest way to build your own digital garden based on this template is to read this <a href="https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll">step-by-step guide explaining how to set this up from scratch</a>.</p>
+<p>Go forth, have fun, and learn new something every day! ✌️</p>
+<section data-footnotes="" class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>This is a footnote. For more information about using footnotes, check out the <a href="https://www.markdownguide.org/extended-syntax/#footnotes">Markdown Guide</a>. <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>This is another footnote that links to the note about [[cats]]. You may also point to [[notes that do not exist]] if you wish. <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section> </div> </div> </article> <footer class="border-t"> <div class="container mx-auto px-4 py-8 text-center text-sm text-muted-foreground">
+JXCPC Tech Group
+</div> </footer> </main>  </body></html>
